@@ -1,0 +1,338 @@
+@media print {
+.header, .hide { visibility: hidden }
+}
+body{
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;   
+    /*background-color: blue;*/
+    background-image: url('background-image/image.png');
+    /*color: coral;*/
+}
+h1,h2{
+    color: darkblue;
+    /*margin-top: -590px;*/
+    font-family: arial;
+    
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;    
+    background-color: red;
+    background-image: url('living_room.jpg');
+    background-size: 1099px 1400px;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 20px rgba(224, 242, 186, 0.8), 0 10px 10px rgba(248, 87, 87, 0.2);
+    outline: none;
+}
+.divTable{
+    width: inherit;
+    display: block;
+}
+.divRow{
+    width: 99%;
+    display: block;
+    clear: both;
+}
+.divColumn{
+    float: left;
+    display: block;
+    width: 20%;
+}
+.divColumn50{
+    float: left;
+    display: block;
+    width: 50%;
+}
+#nav {
+	/*width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: lightpink;
+	border-bottom: 1px solid #ccc;*/
+    
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    /*background-color: pink;*/
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 0 10px 10px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15);
+    outline: none;  
+}
+#nav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; 
+}
+#nav li {
+	float: left; 
+    /*font-family: snap itc, century gothic;*/
+}
+#nav li a {
+	/*display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+	border-right: 1px solid #ccc;*/
+    
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    /*color: white;*/
+    border-right: 1px solid darkblue; 
+}
+#nav li:first-child a {
+	border-left: 1px solid gold; 
+}
+#nav li a:hover {
+	color: white;
+	background-color: blue; 
+}
+
+.divTable2
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRow2
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+    }
+td{
+    padding: 10px;
+    border: 1px solid skyblue;
+    background-color: white;
+    /*border-radius: 1px;*/
+    text-align: center;
+}
+.error{
+    font-family: sans-serif;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+.center{
+    margin-left: 100%;
+    margin-top: 30px;
+    /*margin: 6px 14px;*/
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+    
+}
+.table{
+    margin-left: 250px;
+}
+/*#txtOvertime, #txtLate, #txtTimeIn, #txtTimeOut, #employee_id{
+    margin-bottom: 10px;
+}*/
+/*#txtTimeOutHour{
+    margin-left: -170px;
+}*/
+#divTable{
+    margin-left: 320px;
+}
+.txtSearch{
+    margin-left: 850px;
+}
+#txtsearch{
+    margin-left: 70px;
+}
+input{
+    /*margin-bottom: 10px;*/
+    /*margin-left: 300%;*/
+    margin-bottom: 10px;
+    /*margin-left: 300%;*/
+    font-size: 12px;
+    /*line-height: 22px;*/
+    padding: 0 10px;
+    vertical-align: baseline;
+}
+table{
+    margin-left: 165px;
+    margin-top: 10px;
+}
+select{
+    margin-bottom: 10px;
+}
+#btnLogout{
+    margin-left: 465%;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+#footer{
+    text-align: center;
+    /*margin-left: 30%;*/
+    margin-bottom: 1%;
+    margin-top: 15%;
+    margin-left: 350px;
+}
+#fieldset{
+    margin-left: 35%;
+}
+#female{
+    margin-left: -40%;
+}
+#fieldset2{
+    margin-left: 330px;
+    /*background-color: skyblue;*/
+    border-radius: 20px;
+}
+#login{
+    margin-left: 50%;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+#center_about{
+    text-align: center;
+    /*margin-left: 100px;*/
+}
+#total_hrs{
+    margin-left: 70%;
+}
+.txtSearch2{
+    margin-left: 85%;
+    background-image: none !important;
+}
+#btnSubmit{
+    margin-left: 180%;
+/*margin-bottom: 100%;*/
+    margin-top: 30%;
+}
+#register{
+    margin-left: 200%;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+.tableSalary{
+    margin-left: 300px;
+    margin-top: 10%;
+}
+.tableEmployeeAllow{
+    margin-left: 340px;
+    margin-top: 15%;
+}
+.tableEmployeeContrib{
+    margin-left: 270px;
+    margin-top: 120px;
+}
+.tableEmployeeLoan{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.content_search_button{
+    position: absolute;
+    top: 0;
+    right: 0.20833em;
+    border: 0;
+    padding: 0;
+    width: 2.66667em;
+    height: 2.66667em;
+    line-height: 1;
+    font-size: 1.5em;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.view{
+    background-color: black;
+    color: white;
+}
+.tableSummary{
+    margin-left: 220px;
+    margin-top: 90px;
+}
+#btnBack{
+    margin-left: 120px;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#register2{
+    margin-left: 250%;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+#fieldset1{
+    /*background-color: skyblue;*/
+    border-radius: 20px;
+}
+#register_sign_up{
+    margin-left: 50%;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+#add_loan{
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: #111;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0 1px 0 #fff;
+    background: -moz-linear-gradient(top, #f8f8f8, #d8d8d8);
+    font-family: initial;
+}
+.tableSummary2{
+    margin-right: 150px;
+}

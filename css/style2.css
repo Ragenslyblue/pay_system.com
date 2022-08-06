@@ -1,0 +1,6878 @@
+.divRow{
+    width: 99%;
+    display: block;
+    clear: both;
+}
+.divColumn{
+    float: left;
+    display: block;
+    width: 10%;
+    font-weight: bold;
+}
+.divColumn50{
+    float: left;
+    display: block;
+    width: 50%;
+}
+@media (min-width: 992px)
+.col-md-6 {
+    width: 50%;
+}
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body {
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::selection element
+::selection {
+    color: #fcfcfc;
+    background: #FA7E0A;
+}
+element.style {
+}
+#fh5co-contact-section .form-group {
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body {
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::selection element
+::selection {
+    color: #fcfcfc;
+    background: #FA7E0A;
+}
+element.style {
+}
+#fh5co-contact-section input[type="text"] {
+    height: 50px;
+}
+#fh5co-contact-section .form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from body
+body {
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::selection element
+::selection {
+    color: #fcfcfc;
+    background: #FA7E0A;
+}
+element.style {
+}
+.form-control {
+    border-radius: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+keygen, select, select[size="0"], select[size="1"] {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+}
+user agent stylesheet
+keygen, select {
+    border-radius: 5px;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from body.tm-gray-bg
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#fh5co-contact-section .form-group {
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body {
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::selection element
+::selection {
+    color: #fcfcfc;
+    background: #FA7E0A;
+}
+element.style {
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.btn-primary {
+    background: #FA7E0A;
+    color: #fff;
+    border: 2px solid #FA7E0A;
+}
+.btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Roboto", Arial, serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    -webkit-user-select: none;
+    white-space: pre;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from body
+body {
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333333;
+    background-color: #fff;
+}
+Inherited from html.js.flexbox.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::selection element
+::selection {
+    color: #fcfcfc;
+    background: #FA7E0A;
+}
+element.style {
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body.tm-gray-bg
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control {
+    border-radius: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from div#datetimepicker1.input-group.date
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.tm-gray-bg
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.input-group-addon:last-child {
+    border-left: 0;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input-group-addon {
+    border-radius: 0;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Inherited from div#datetimepicker1.input-group.date
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.tm-gray-bg
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Inherited from span.input-group-addon
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+Inherited from div#datetimepicker1.input-group.date
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.tm-gray-bg
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.fa-calendar:before {
+    content: "\f073";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-calendar:before {
+    content: "\f073";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#search {
+    margin-bottom: 10px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body.common-home
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#search .input-lg {
+    height: 40px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+select.form-control, textarea.form-control, input[type="text"].form-control, input[type="password"].form-control, input[type="datetime"].form-control, input[type="datetime-local"].form-control, input[type="date"].form-control, input[type="month"].form-control, input[type="time"].form-control, input[type="week"].form-control, input[type="number"].form-control, input[type="email"].form-control, input[type="url"].form-control, input[type="search"].form-control, input[type="tel"].form-control, input[type="color"].form-control {
+    font-size: 12px;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.input-group input, .input-group select, .input-group .dropdown-menu, .input-group .popover {
+    font-size: 12px;
+}
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+Inherited from div#search.input-group
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.common-home
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Inherited from div#search.input-group
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.common-home
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#search .btn-lg {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 35px;
+    text-shadow: 0 1px 0 #FFF;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input-group-btn>.btn {
+    position: relative;
+}
+.btn-default {
+    color: #777;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #e7e7e7;
+    background-image: linear-gradient(to bottom, #eeeeee, #dddddd);
+    background-repeat: repeat-x;
+    border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 15px;
+}
+.btn {
+    padding: 7.5px 12px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+}
+Inherited from span.input-group-btn
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+Inherited from div#search.input-group
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.common-home
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.fa {
+    font-size: 14px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from button.btn.btn-default.btn-lg
+#search .btn-lg {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 35px;
+    text-shadow: 0 1px 0 #FFF;
+}
+.btn-default {
+    color: #777;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #e7e7e7;
+    background-image: linear-gradient(to bottom, #eeeeee, #dddddd);
+    background-repeat: repeat-x;
+    border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 15px;
+}
+.btn {
+    padding: 7.5px 12px;
+    font-size: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+Inherited from span.input-group-btn
+.input-group-btn {
+    position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+Inherited from div#search.input-group
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+Inherited from body.common-home
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.fa-search:before {
+    content: "\f002";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-search:before {
+    content: "\f002";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.bg-primary {
+    background: #428bca;
+    padding: 5px;
+    color: #fff;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+Inherited from table.table.table-bordered.table-responsive
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table td {
+    font-size: 1.2em;
+}
+.text-center {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table.table.table-bordered.table-responsive
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.text-center
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table td {
+    font-size: 1.2em;
+}
+.text-center {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+Inherited from table.table.table-bordered.table-responsive
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.fa {
+    cursor: pointer;
+}
+.fa-lg {
+    font-size: 1.3333333333333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.text-danger {
+    color: #a94442;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from a
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.text-center
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table td {
+    font-size: 1.2em;
+}
+.text-center {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+Inherited from table.table.table-bordered.table-responsive
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.fa-times-circle:before {
+    content: "\f057";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-times-circle:before {
+    content: "\f057";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+table[Attributes Style] {
+    border-spacing: 1px;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+    border-left: 1px solid #C1DAD7;
+}
+#resultTable th.sortable {
+    background: url("bg_header.jpg") no-repeat scroll 0 0 #CAE8EA;
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: #4F6B72;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+#resultTable th {
+    background: url("bg_header.jpg") no-repeat scroll 0 0 #CAE8EA;
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: #4F6B72;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+th {
+    text-align: left;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#resultTable th.sortable {
+    background: url("bg_header.jpg") no-repeat scroll 0 0 #CAE8EA;
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: #4F6B72;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+#resultTable th {
+    background: url("bg_header.jpg") no-repeat scroll 0 0 #CAE8EA;
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    color: #4F6B72;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    padding: 3px 3px 3px 6px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+}
+th {
+    text-align: left;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+    border-left: 1px solid #C1DAD7;
+}
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div[Attributes Style] {
+    text-align: -webkit-center;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.fa-lg {
+    font-size: 1.3333333333333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.text-success {
+    color: #3c763d;
+}
+.fa {
+    cursor: pointer;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from a
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.fa-edit:before, .fa-pencil-square-o:before {
+    content: "\f044";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-edit:before, .fa-pencil-square-o:before {
+    content: "\f044";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.fa-lg {
+    font-size: 1.3333333333333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.text-danger {
+    color: #a94442;
+}
+.fa {
+    cursor: pointer;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from a#80.delbutton
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from td.odd
+#resultTable td.odd {
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+#resultTable td {
+    border-bottom: 1px solid #C1DAD7;
+    border-right: 1px solid #C1DAD7;
+    padding: 3px 3px 3px 6px;
+    font: normal 11px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+Inherited from table#resultTable
+#resultTable {
+    background-color: white;
+    margin-top: 8px;
+    width: 100%;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+Inherited from body
+body {
+    font-family: 'Roboto', sans-serif;
+    background: ;
+    position: relative;
+    font-weight: 400px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+.fa-times-circle:before {
+    content: "\f057";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fa-times-circle:before {
+    content: "\f057";
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+.widscreen {
+    width: 100%;
+}
+.left {
+    float: left;
+}
+article, aside, header, footer, nav, menu, dialog, figure, section {
+    display: block;
+    position: relative;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.article_content {
+    padding: 0 30px;
+}
+.article_content {
+    background: #efefef;
+    margin-right: 300px;
+    padding: 0 60px;
+    border-right: 1px solid #d8d8d8;
+    min-height: 1000px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.article_content .title-top {
+    font-size: 40px;
+    line-height: 45px;
+}
+.article_content .title-top {
+    font-size: 56px;
+    position: relative;
+    line-height: 60px;
+    color: #000;
+    font-weight: bold;
+    padding-top: 60px;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+:-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+user agent stylesheet
+:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_content {
+    position: relative;
+    padding: 50px 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.clearfix {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+Pseudo ::after element
+.clearfix:after {
+    display: block;
+    content: 'clear';
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+}
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.comment_content {
+    padding-bottom: 50px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.wid300 {
+    width: 300px;
+    padding-top: 20px;
+    margin-left: -300px;
+}
+.right {
+    float: right;
+}
+article, aside, header, footer, nav, menu, dialog, figure, section {
+    display: block;
+    position: relative;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+.aside_content {
+    margin-bottom: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+.aside_content {
+    margin-bottom: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+.aside_content {
+    margin-bottom: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+.aside_content {
+    margin-bottom: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+.aside_content {
+    margin-bottom: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+blockquote {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.two_title {
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    color: #69c773;
+    font-size: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from div.aside_content.aside_one
+.aside_one {
+    padding: 0 30px 0 20px;
+    color: #666;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.wid300 {
+    width: 300px;
+    padding-top: 20px;
+    margin-left: -300px;
+}
+.right {
+    float: right;
+}
+article, aside, header, footer, nav, menu, dialog, figure, section {
+    display: block;
+    position: relative;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info img {
+    float: left;
+}
+select, input, img, textarea {
+    vertical-align: middle;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li .scores {
+    color: #fe8006;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    width: 60px;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li .scores em {
+    font-size: 20px;
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from span.scores
+.detail_info ul li .scores {
+    color: #fe8006;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    width: 60px;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.star-full {
+    background-position: 0 -370px;
+}
+.star-half, .star-full, .star-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+header .menu-nav .logo, .bannerbtn a, .manga_cover em, .cartoon-bar b, .plug-right ul li a, .advanced li ul.genres li, .one_buttoon, .cartoon-left a, .star-half, .star-full, .star-empty, .new_chapter, i.manga_open, i.manga_close, #back_top, .updatecover_icon, .search-btn, .boys_icon, .girls_icon, .yaoi_icon, .yuri_icon, .coverbg_info_icon, .zoomin_readimg, .zoomout_readimg, .reporterrors:hover, .bookmark:hover, .subscribe:hover, .upload:hover, .add:hover, .comment:hover, .radio-btn, .radio-checked, .check-box, .check-checked, .dialog_box .close, .img_version, .text_version, .nopic_list .list_manga .topname, .new_icon, .collected-icon, .advavced_search, .booklist_post .booklist_cover em {
+    background: url(../images/icon.png?v=009) no-repeat;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.star-full {
+    background-position: 0 -370px;
+}
+.star-half, .star-full, .star-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+header .menu-nav .logo, .bannerbtn a, .manga_cover em, .cartoon-bar b, .plug-right ul li a, .advanced li ul.genres li, .one_buttoon, .cartoon-left a, .star-half, .star-full, .star-empty, .new_chapter, i.manga_open, i.manga_close, #back_top, .updatecover_icon, .search-btn, .boys_icon, .girls_icon, .yaoi_icon, .yuri_icon, .coverbg_info_icon, .zoomin_readimg, .zoomout_readimg, .reporterrors:hover, .bookmark:hover, .subscribe:hover, .upload:hover, .add:hover, .comment:hover, .radio-btn, .radio-checked, .check-box, .check-checked, .dialog_box .close, .img_version, .text_version, .nopic_list .list_manga .topname, .new_icon, .collected-icon, .advavced_search, .booklist_post .booklist_cover em {
+    background: url(../images/icon.png?v=009) no-repeat;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.star-half {
+    background-position: 0 -392px;
+}
+.star-half, .star-full, .star-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+header .menu-nav .logo, .bannerbtn a, .manga_cover em, .cartoon-bar b, .plug-right ul li a, .advanced li ul.genres li, .one_buttoon, .cartoon-left a, .star-half, .star-full, .star-empty, .new_chapter, i.manga_open, i.manga_close, #back_top, .updatecover_icon, .search-btn, .boys_icon, .girls_icon, .yaoi_icon, .yuri_icon, .coverbg_info_icon, .zoomin_readimg, .zoomout_readimg, .reporterrors:hover, .bookmark:hover, .subscribe:hover, .upload:hover, .add:hover, .comment:hover, .radio-btn, .radio-checked, .check-box, .check-checked, .dialog_box .close, .img_version, .text_version, .nopic_list .list_manga .topname, .new_icon, .collected-icon, .advavced_search, .booklist_post .booklist_cover em {
+    background: url(../images/icon.png?v=009) no-repeat;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.star-empty {
+    background-position: 0 -414px;
+}
+.star-half, .star-full, .star-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+header .menu-nav .logo, .bannerbtn a, .manga_cover em, .cartoon-bar b, .plug-right ul li a, .advanced li ul.genres li, .one_buttoon, .cartoon-left a, .star-half, .star-full, .star-empty, .new_chapter, i.manga_open, i.manga_close, #back_top, .updatecover_icon, .search-btn, .boys_icon, .girls_icon, .yaoi_icon, .yuri_icon, .coverbg_info_icon, .zoomin_readimg, .zoomout_readimg, .reporterrors:hover, .bookmark:hover, .subscribe:hover, .upload:hover, .add:hover, .comment:hover, .radio-btn, .radio-checked, .check-box, .check-checked, .dialog_box .close, .img_version, .text_version, .nopic_list .list_manga .topname, .new_icon, .collected-icon, .advavced_search, .booklist_post .booklist_cover em {
+    background: url(../images/icon.png?v=009) no-repeat;
+}
+user agent stylesheet
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+Inherited from li#rate
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a.two_buttoon, .detail_info ul li a.more {
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.detail_info ul li .two_buttoon {
+    margin-bottom: 10px;
+}
+.detail_info ul li a {
+    color: #959595;
+}
+.two_buttoon {
+    background: #69c773;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a.two_buttoon, .detail_info ul li a.more {
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.detail_info ul li .two_buttoon {
+    margin-bottom: 10px;
+}
+.detail_info ul li a {
+    color: #959595;
+}
+.two_buttoon {
+    background: #69c773;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a.two_buttoon, .detail_info ul li a.more {
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.detail_info ul li .two_buttoon {
+    margin-bottom: 10px;
+}
+.detail_info ul li a {
+    color: #959595;
+}
+.two_buttoon {
+    background: #69c773;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a.two_buttoon, .detail_info ul li a.more {
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.detail_info ul li .two_buttoon {
+    margin-bottom: 10px;
+}
+.detail_info ul li a {
+    color: #959595;
+}
+.two_buttoon {
+    background: #69c773;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a.two_buttoon, .detail_info ul li a.more {
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) and (min-width: 1px)
+.detail_info ul li .two_buttoon {
+    margin-bottom: 10px;
+}
+.detail_info ul li a {
+    color: #959595;
+}
+.two_buttoon {
+    background: #69c773;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li b {
+    margin-right: 5px;
+}
+user agent stylesheet
+strong, b {
+    font-weight: bold;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li b {
+    margin-right: 5px;
+}
+user agent stylesheet
+strong, b {
+    font-weight: bold;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a {
+    color: #959595;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li b {
+    margin-right: 5px;
+}
+user agent stylesheet
+strong, b {
+    font-weight: bold;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a {
+    color: #959595;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin: 3px 3px 0;
+    padding: 0px;
+    font-size: 11px;
+    line-height: 0px;
+    vertical-align: bottom;
+    overflow: visible;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+<style>…</style>
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from span
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin: 3px 3px 0;
+    padding: 0px;
+    font-size: 11px;
+    line-height: 0px;
+    vertical-align: bottom;
+    overflow: visible;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    vertical-align: bottom;
+    width: 81px;
+    height: 20px;
+}
+<style>…</style>
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+Inherited from span
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin: 3px 3px 0;
+    padding: 0px;
+    font-size: 11px;
+    line-height: 0px;
+    vertical-align: bottom;
+    overflow: visible;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    border: none;
+    visibility: visible;
+    width: 81px;
+    height: 20px;
+}
+<style>…</style>
+.fb_iframe_widget iframe {
+    position: absolute;
+}
+iframe[Attributes Style] {
+    width: 1000px;
+    height: 1000px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+user agent stylesheet
+iframe {
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+}
+Inherited from span
+<style>…</style>
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+Inherited from span
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin: 3px 3px 0;
+    padding: 0px;
+    font-size: 11px;
+    line-height: 0px;
+    vertical-align: bottom;
+    overflow: visible;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    background-image: url("http://w.sharethis.com/images/facebook_counter.png");
+}
+.stButton .st-twitter-counter, .stButton .st-facebook-counter {
+    width: 60px;
+}
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+    background-image: url(/images/facebook_counter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 16px;
+    width: auto;
+    position: relative;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.st_facebook_hcount .stArrow, .st_fb_like_hcount .stArrow {
+    background-image: url(http://w.sharethis.com/share4x/images/Facebook_bubble_arrow.png);
+}
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    display: inline-block;
+}
+.st_fb_like_button .stButton_gradient, .st_fb_like_button .stButton_gradient:hover, .st_fb_like_vcount .stButton_gradient, .st_fb_like_vcount .stButton_gradient:hover, .st_fb_like_hcount .stButton_gradient, .st_fb_like_hcount .stButton_gradient:hover, .st_facebook_button .stButton_gradient, .st_facebook_button .stButton_gradient:hover, .st_facebook_vcount .stButton_gradient, .st_facebook_vcount .stButton_gradient:hover, .st_facebook_hcount .stButton_gradient, .st_facebook_hcount .stButton_gradient:hover {
+    color: #000;
+    border: 1px solid #cad4e7;
+    font-family: serif;
+    background: #eceef5;
+    filter: none;
+}
+.stButton .stHBubble {
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    z-index: -1;
+    display: none;
+}
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.stButton .stBubble_hcount {
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+}
+Inherited from span.stButton_gradient.stHBubble
+.st_fb_like_button .stButton_gradient, .st_fb_like_button .stButton_gradient:hover, .st_fb_like_vcount .stButton_gradient, .st_fb_like_vcount .stButton_gradient:hover, .st_fb_like_hcount .stButton_gradient, .st_fb_like_hcount .stButton_gradient:hover, .st_facebook_button .stButton_gradient, .st_facebook_button .stButton_gradient:hover, .st_facebook_vcount .stButton_gradient, .st_facebook_vcount .stButton_gradient:hover, .st_facebook_hcount .stButton_gradient, .st_facebook_hcount .stButton_gradient:hover {
+    color: #000;
+    border: 1px solid #cad4e7;
+    font-family: serif;
+    background: #eceef5;
+    filter: none;
+}
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    background-image: url("http://w.sharethis.com/images/twitter_counter.png");
+}
+.stButton .st-twitter-counter, .stButton .st-facebook-counter {
+    width: 60px;
+}
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+    background-image: url(/images/facebook_counter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 16px;
+    width: auto;
+    position: relative;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.st_twitter_hcount .stArrow {
+    background-image: url(http://w.sharethis.com/share4x/images/Twitter_bubble_arrow.png);
+}
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    display: inline-block;
+}
+.st_twitter_button .stButton_gradient, .st_twitter_button .stButton_gradient:hover, .st_twitter_vcount .stButton_gradient, .st_twitter_vcount .stButton_gradient:hover, .st_twitter_hcount .stButton_gradient, .st_twitter_hcount .stButton_gradient:hover {
+    border: 1px solid #cce3f3;
+    background: #fff;
+    filter: none;
+}
+.stButton .stHBubble {
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    z-index: -1;
+    display: none;
+}
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.stButton .stBubble_hcount {
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+}
+Inherited from span.stButton_gradient.stHBubble
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    background-image: url("http://w.sharethis.com/images/sharethis_counter.png");
+}
+.stButton .st-sharethis-counter {
+    width: 86px;
+}
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+    background-image: url(/images/facebook_counter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 16px;
+    width: auto;
+    position: relative;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+    display: inline-block;
+}
+.stButton .stHBubble {
+    margin-left: 3px;
+    margin-right: 3px;
+    position: relative;
+    z-index: -1;
+    display: none;
+}
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.stButton .stBubble_hcount {
+    padding-left: 2px;
+    padding-right: 2px;
+    white-space: nowrap;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+}
+Inherited from span.stButton_gradient.stHBubble
+.stButton .stButton_gradient {
+    background-repeat: repeat-x;
+    border: 1px solid #bfbfbf;
+    padding: 2px;
+    font-family: serif;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+    background: #d5d5d5;
+    background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5d5d5',endColorstr='#ffffff',GradientType=0);
+}
+Inherited from span.stArrow
+.stButton .stArrow {
+    padding-left: 3px;
+    margin-left: -1px;
+    background: url(http://w.sharethis.com/share4x/images/bubble_arrow.png) no-repeat 3px 8px;
+    line-height: 16px;
+    height: 14px;
+    display: inline-block;
+}
+Inherited from span.stButton
+Style Attribute {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    cursor: pointer;
+}
+.stButton {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 11px;
+    line-height: 16px;
+}
+Inherited from li
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li {
+    margin-bottom: 10px;
+}
+.adv-banner {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.adv-banner p {
+    color: #7e7e7e;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from li.adv-banner
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li a {
+    color: #959595;
+}
+a {
+}
+a {
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li.adv-banner
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.detail_info ul li.adv-banner img, .no-mangabooklist-main p.adv-banner img {
+    max-width: 100%;
+}
+.detail_info img {
+    float: left;
+}
+a img {
+    border: 0;
+}
+select, input, img, textarea {
+    vertical-align: middle;
+}
+Inherited from a
+.detail_info ul li a {
+    color: #959595;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from li.adv-banner
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul
+.detail_info ul {
+    padding-left: 220px;
+    color: #959595;
+    max-width: 550px;
+}
+ul, li, ol {
+    list-style-type: none;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
+element.style {
+}
+.chapter_content .two_title {
+    margin-top: 20px;
+}
+.two_title {
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    color: #69c773;
+    font-size: 20px;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, ul, ol, li, dl, dt, dd, pre, form, fieldset, legend, button, input, textarea, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+Inherited from body
+body, button, input, select, textarea {
+    font-family: 'Open Sans',Arial,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+}
